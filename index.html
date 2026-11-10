@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sister's Chicken | Delicious Every Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Sister's<span>Chicken.</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Our Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#menu" class="nav-button">Explore Menu</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">CRISPY • DELICIOUS • SATISFYING</p>
+
+                <h1>Good Chicken.<br>
+                    <span>Great Taste.</span>
+                </h1>
+
+                <p>
+                    Delicious chicken, tasty sides and
+                    affordable meals made to satisfy
+                    your cravings.
+                </p>
+
+                <a href="#menu" class="primary-button">
+                    Explore Our Menu
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=900"
+                    alt="Delicious crispy fried chicken">
+            </div>
+        </section>
+
+
+        <!-- MENU SECTION -->
+        <section class="menu-section" id="menu">
+
+            <p class="eyebrow">MADE WITH LOVE</p>
+
+            <h2>Our Delicious Menu</h2>
+
+            <p>Choose your favorite chicken package.</p>
+
+            <div class="menu-grid">
+
+                <!-- BASIC PACKAGE -->
+                <div class="menu-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600"
+                        alt="Fried chicken with sauce">
+
+                    <h3>Chicken & Sauce</h3>
+
+                    <p>Crispy chicken served with delicious sauce.</p>
+
+                    <div class="menu-bottom">
+
+                        <span>250 LD</span>
+
+                        <div class="order-controls">
+                            <input
+                                type="number"
+                                class="item-quantity"
+                                value="1"
+                                min="1"
+                                max="20">
+
+                            <button
+                                class="order-item"
+                                data-item="Chicken & Sauce">
+                                Order
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- COMBO PACKAGE -->
+                <div class="menu-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+                        alt="Fresh salad">
+
+                    <h3>Chicken Combo</h3>
+
+                    <p>
+                        Chicken, sauce and a small macaroni
+                        or potato salad of your choice.
+                    </p>
+
+                    <div class="menu-bottom">
+
+                        <span>350 LD</span>
+
+                        <div class="order-controls">
+                            <input
+                                type="number"
+                                class="item-quantity"
+                                value="1"
+                                min="1"
+                                max="20">
+
+                            <button
+                                class="order-item"
+                                data-item="Chicken Combo">
+                                Order
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- FULL PACKAGE -->
+                <div class="menu-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1562967914-608f82629710?w=600"
+                        alt="Full crispy chicken meal">
+
+                    <h3>Full Package</h3>
+
+                    <p>
+                        Chicken, sauce, French fries,
+                        fried plantain, macaroni salad
+                        and potato salad.
+                    </p>
+
+                    <div class="menu-bottom">
+
+                        <span>600 LD</span>
+
+                        <div class="order-controls">
+                            <input
+                                type="number"
+                                class="item-quantity"
+                                value="1"
+                                min="1"
+                                max="20">
+
+                            <button
+                                class="order-item"
+                                data-item="Full Package">
+                                Order
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="menu-note">
+                Extra portions and additional sides
+                are available at an extra cost.
+            </p>
+
+        </section>
+
+
+        <!-- CART SECTION -->
+
+<!-- Drinks & Treats Section -->
+<section class="menu-section" id="drinks-treats">
+    <h2>Drinks & Treats</h2>
+    <p>Something refreshing or sweet to complete your meal.</p>
+
+    <div class="menu-grid">
+
+        <div class="menu-card">
+            <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?w=600"
+     alt="Glass of fresh milk">
+            <h3>Sour Milk</h3>
+            <p>Refreshing and delicious.</p>
+
+            <div class="menu-bottom">
+                <span class="price">100 LD</span>
+
+                <div class="order-controls">
+                    <input type="number" class="item-quantity"
+                           value="1" min="1" max="20">
+
+                    <button class="order-item" data-item="Sour Milk">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-card">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600"
+     alt="Ice cream scoops">
+            <h3>Ice Cream</h3>
+            <p>A sweet treat for any time.</p>
+
+            <div class="menu-bottom">
+                <span class="price">100 LD</span>
+
+                <div class="order-controls">
+                    <input type="number" class="item-quantity"
+                           value="1" min="1" max="20">
+
+                    <button class="order-item" data-item="Ice Cream">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        
+<section class="cart-section" id="cart">
+
+    <p class="eyebrow">YOUR SELECTION</p>
+
+    <h2>Your Food Basket</h2>
+
+    <p>Review your selections before ordering.</p>
+
+    <div id="cart-items">
+        <p class="empty-cart">
+            Your basket is currently empty.
+        </p>
+    </div>
+
+    <div class="cart-footer">
+
+        <h3>
+            Items: <span id="cart-count">0</span>
+        </h3>
+
+    </div>
+
+    <!-- Customer Order Details -->
+
+    <div class="order-details">
+
+        <h3>Customer Details</h3>
+
+        <label for="customer-name">Your Name</label>
+        <input type="text" id="customer-name"
+               placeholder="Enter your full name">
+
+        <label for="customer-phone">Phone Number</label>
+        <input type="tel" id="customer-phone"
+               placeholder="Enter your phone number">
+
+        <label for="order-type">Order Type</label>
+        <select id="order-type">
+            <option value="">Choose delivery or pickup</option>
+            <option value="Delivery">Delivery</option>
+            <option value="Pickup">Pickup</option>
+        </select>
+
+        <div id="delivery-address-box" hidden>
+
+            <label for="delivery-address">Delivery Address</label>
+            <textarea id="delivery-address"
+                      placeholder="Enter your delivery location"></textarea>
+
+        </div>
+
+        <button id="checkout-button" class="primary-button">
+            Order Everything on WhatsApp
+        </button>
+
+    </div>
+
+</section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about-section" id="about">
+
+            <div class="about-content">
+
+                <p class="eyebrow">OUR STORY</p>
+
+                <h2>Good Food. Great Moments.</h2>
+
+                <p>
+                    At Sister's Chicken, we believe
+                    good food should be delicious and
+                    affordable. From crispy chicken
+                    to tasty sides, we're here to make
+                    every meal enjoyable.
+                </p>
+
+                <div class="about-features">
+
+                    <div>
+                        <span>01</span>
+                        <h3>Great Taste</h3>
+                        <p>Delicious meals to enjoy.</p>
+                    </div>
+
+                    <div>
+                        <span>02</span>
+                        <h3>Affordable Meals</h3>
+                        <p>Good food at friendly prices.</p>
+                    </div>
+
+                    <div>
+                        <span>03</span>
+                        <h3>Friendly Service</h3>
+                        <p>Every customer matters.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+<!-- CONTACT SECTION -->
+<section class="contact-section" id="contact">
+
+    <p class="eyebrow">GET IN TOUCH</p>
+
+    <h2>Ready to Place Your Order?</h2>
+
+    <p>
+        Have questions or want to order?
+        We're just a message away.
+    </p>
+
+    <div class="contact-details">
+
+        <div class="contact-card">
+            <span>📍</span>
+            <h3>Our Location</h3>
+            <p>Barnesville Estate, Area E, Monrovia</p>
+        </div>
+
+        <div class="contact-card">
+            <span>📞</span>
+            <h3>Call Us</h3>
+            <p>
+                <a href="tel:0775478670">0775478670</a>
+                <br>
+                <a href="tel:0778003129">0778003129</a>
+            </p>
+        </div>
+
+        <div class="contact-card">
+            <span>🕒</span>
+            <h3>Opening Hours</h3>
+            <p>Hours to be announced</p>
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+<!-- FOOTER -->
+<footer>
+    <h3>Sister's Chicken</h3>
+
+    <p>Good Chicken. Great Taste.</p>
+
+    <p>Barnesville Estate, Area E, Monrovia, Liberia.</p>
+
+    <p>
+        Call us:
+        <a href="tel:0775478670">0775478670</a> |
+        <a href="tel:0778003129">0778003129</a>
+    </p>
+
+    <p class="copyright">
+        © 2026 Sister's Chicken. All rights reserved.
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+ 
